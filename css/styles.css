@@ -1,0 +1,139 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+hr {
+  width: 85%;
+  margin: 28px auto;
+  background-color: #e5e5e5;
+}
+
+.tcontainer {
+  background-image: url("../images/back1.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 0%;
+  height: 384px;
+  background-size: cover;
+}
+
+.tconthead {
+  position: relative;
+  text-align: center;
+  top: 9%;
+  left: -1%;
+}
+
+.tconthead h1 {
+  font-size: 358%;
+  color: #32cd32;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Russo One", sans-serif;
+}
+
+.tconthead p {
+  color: red;
+  font-weight: 700;
+}
+
+.mcontainer {
+  padding-top: 14px;
+  text-align: center;
+}
+
+#midpara {
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+}
+
+#midpara p {
+  height: 161px;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  width: 102px;
+}
+
+.mmcontainer {
+  text-align: center;
+  margin-top: 28px;
+}
+
+#midpara.showContent p {
+  height: auto;
+}
+
+#carouselExampleControls {
+  width: 70%;
+  display: inline-block;
+  margin-top: 15px;
+}
+.fixedheight {
+  max-height: 500px;
+}
+
+.bcontainer {
+  text-align: center;
+}
+
+.bsection {
+  display: inline-flex;
+  text-align: center;
+}
+
+.card {
+  margin: 10px auto;
+  float: none;
+  margin-top: 21px;
+}
+.animate__animated {
+  --animate-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  transition: opacity ease-out 0.7s;
+  left: 0;
+  opacity: 0; /* hide all slides */
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1; /* show first slide */
+  position: relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.bottomc {
+  text-align: center;
+}
+
+.botcol {
+  display: inline-block;
+}
+
+.condet {
+  display: inline-block;
+  width: 34%;
+  text-align: left;
+}
